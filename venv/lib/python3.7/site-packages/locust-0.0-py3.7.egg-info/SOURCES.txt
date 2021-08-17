@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+locust.egg-info/PKG-INFO
+locust.egg-info/SOURCES.txt
+locust.egg-info/dependency_links.txt
+locust.egg-info/not-zip-safe
+locust.egg-info/requires.txt
+locust.egg-info/top_level.txt

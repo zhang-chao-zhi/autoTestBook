@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap 实例 - 模态框（Modal）插件</title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#step1">开始演示模态框</button>
+<div class="modal fade" id="step1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">step1</h4>
+            </div>
+            <div class="modal-body">step1的内容</div>
+            <div class="modal-footer"><button type="button" class="btn btn-primary" onclick="$('#step1').modal('hide'); $('#step2').modal('show')">下一步</button></div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="step2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">step2</h4>
+            </div>
+            <div class="modal-body">step2的内容</div>
+            <div class="modal-footer"><button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button></div>
+        </div>
+    </div>
+</div>
+<!--更多的步骤，按照step1的代码调用modal的api显示隐藏对应的modal--->
+</body>
+</html>

@@ -1,0 +1,6 @@
+find_element_by_link_text("聚美")
+find_element_by_link_text("京东")
+find_element_by_link_text("淘宝是一个神奇的网站哦")
+find_element_by_partial_link_text("聚")
+find_element_by_partial_link_text("京")
+find_element_by_partial_link_text("淘宝")

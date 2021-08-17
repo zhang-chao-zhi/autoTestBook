@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pytest-assume
+Version: 2.2.1
+Summary: A pytest plugin that allows multiple failures per test
+Home-page: https://github.com/astraw38/pytest-assume
+Author: Brian Okken/Ashley Straw
+Author-email: as.fireflash38@gmail.com
+Maintainer: Ashley Straw
+Maintainer-email: as.fireflash38@gmail.com
+License: MIT
+Download-URL: https://github.com/astraw38/pytest-assume/tarball/2.0.0
+Keywords: testing,pytest,assert
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Dist: pytest (>=2.7)
+
+UNKNOWN
+
+

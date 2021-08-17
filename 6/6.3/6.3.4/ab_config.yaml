@@ -1,0 +1,5 @@
+config:
+  url: https://soso.com/
+  child_process: 3
+  request_num: 100
+  running_time: 5

@@ -1,0 +1,12 @@
+[console_scripts]
+tavern-ci = tavern.entry:main
+
+[pytest11]
+tavern = tavern.testutils.pytesthook
+
+[tavern_http]
+requests = tavern._plugins.rest.tavernhook:TavernRestPlugin
+
+[tavern_mqtt]
+paho-mqtt = tavern._plugins.mqtt.tavernhook
+

@@ -1,0 +1,3 @@
+[pytest11]
+assume = pytest_assume.plugin
+

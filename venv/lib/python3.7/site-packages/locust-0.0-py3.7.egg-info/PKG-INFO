@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: locust
+Version: 0.0
+Summary: Use package locustio instead
+Home-page: https://locust.io
+Author: Jonatan Heyman
+Author-email: 
+Maintainer: Jonatan Heyman
+Maintainer-email: 
+License: UNKNOWN
+Description: Use `locustio <https://pypi.org/project/locustio/>`_ instead.
+Platform: all

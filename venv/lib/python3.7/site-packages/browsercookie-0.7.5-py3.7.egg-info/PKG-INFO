@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: browsercookie
+Version: 0.7.5
+Summary: Loads cookies from your browser into a cookiejar object so can download with urllib and other libraries the same content you see in the web browser.
+Home-page: https://bitbucket.org/richardpenman/browsercookie
+Author: Richard Penman
+Author-email: richard@webscraping.com
+License: lgpl
+Description: UNKNOWN
+Platform: UNKNOWN
